@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/GoTravel_BestRoadLevel1_ChoiceArea" />
+
+        <TextView
+            android:id="@+id/tv_BestRoadLevel1_ChoiceArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/All_None" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoTravel_BestRoadLevel1_Info" />
+
+    <Button
+        android:id="@+id/btn_BestRoadLevel1_Healing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoTravel_BestRoadLevel1_Healing" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoTravel_BestRoadLevel1_HealingInfo" />
+
+    <Button
+        android:id="@+id/btn_BestRoadLevel1_Family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoTravel_BestRoadLevel1_Family" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoTravel_BestRoadLevel1_FamilyInfo" />
+
+    <Button
+        android:id="@+id/btn_BestRoadLevel1_Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoTravel_BestRoadLevel1_Date" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoTravel_BestRoadLevel1_DateInfo" />
+
+    <Button
+        android:id="@+id/btn_BestRoadLevel1_Playing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoTravel_BestRoadLevel1_Playing" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoTravel_BestRoadLevel1_PlayingInfo" />
+
+    <Button
+        android:id="@+id/btn_BestRoadLevel1_Seeing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoTravel_BestRoadLevel1_Seeing" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoTravel_BestRoadLevel1_SeeingInfo" />
+
+</LinearLayout>

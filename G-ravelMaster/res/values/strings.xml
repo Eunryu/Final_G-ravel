@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">G-ravel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 공통 -->
+    <string name="All_None">none</string>
+    <string name="All_ShopName">이름 :</string>
+    <string name="All_ShopAddress">주소 :</string>
+    <string name="All_ShopURL">홈페이지 :</string>
+    <string name="All_ShopInfo">== 정보 ==</string>
+    <string name="All_ShopSeeMap">지도보기</string>
+    <string name="All_ShopPhone">TEL :</string>
+    <string name="All_ShopSelect">종류 :</string>
+    <string name="All_ShopBookingCheck">예약확인 :</string>
+    <string name="All_ShopBookingOk">완료</string>
+    <string name="All_ShopBookingNono">필요없음</string>
+    <string name="All_ShopBookingNo">아직 안함</string>
+    <string name="All_ShopBookingURL">인터넷예약</string>
+    <string name="All_ShopBookingPhone">전화예약</string>
+
+    <!-- 여행가기 -->
+    <string name="GoTravel_ChooseBigArea_Title">여행가기 입니다.</string>
+    <string name="GoTravel_ChooseGoPlanway_AreaName">선택된 지역 :</string>
+    <string name="GoTravel_ChooseGoPlanway_Title">여행경로 만드실 방법을 골라주세요.</string>
+    <string name="GoTravel_ChooseSmallARea_Title">[세부지역] 고르기</string>
+    <string name="GoTravel_ChooseSmallArea_InfoText">세부지역을 골라주세요.</string>
+
+    <!-- BestRoad -->
+    <string name="GoTravel_BestRoadLevel1_ChoiceArea">선택된 지역명 :</string>
+    <string name="GoTravel_BestRoadLevel1_Info">원하시는 패키지를 선택해주세요.</string>
+    <string name="GoTravel_BestRoadLevel1_Healing">힐링여행</string>
+    <string name="GoTravel_BestRoadLevel1_Seeing">관광지여행</string>
+    <string name="GoTravel_BestRoadLevel1_Date">데이트여행</string>
+    <string name="GoTravel_BestRoadLevel1_Playing">체험여행</string>
+    <string name="GoTravel_BestRoadLevel1_Family">가족여행</string>
+    <string name="GoTravel_BestRoadLevel1_HealingInfo">마음의 휴식을 가질수 있는 힐링 패키지 모음입니다.</string>
+    <string name="GoTravel_BestRoadLevel1_SeeingInfo">다양한 관광지에 대한 여행을 즐길수 있는 패키지 모음입니다.</string>
+    <string name="GoTravel_BestRoadLevel1_DateInfo">연인과 알콩달콩한 데이트를 즐길수 있는 패키지 모음입니다.</string>
+    <string name="GoTravel_BestRoadLevel1_PlayingInfo">다양한 체험을 할수있는 패키지 모음입니다.</string>
+    <string name="GoTravel_BestRoadLevel1_FamilyInfo">가족과 단란한 시간을 보낼수 있는 패키지 모음입니다.</string>
+    <string name="GoTravel_BestRoadLevel2_ChoicePackage">선택된 패키지명 :</string>
+    <string name="GoTravel_BestRoadLevel2_Info">선택된 패키지 종류에 대한 패키지들 입니다. 원하시는 패키지를 누르시면 자세히 볼수 있습니다.</string>
+    <string name="GoTravel_BestRoadLevel3_Info">선택하신 패키지에 들어있는 경로들입니다. 클릭을 하시면 자세히 볼수 있습니다. 이 패키지의 경로로 결정하시려면 버튼을 눌러주세요.</string>
+    <string name="GoTravel_BestRoadLevel3_OKBtn">이 패키지로 결정</string>
+    
+    <!-- MakeTravelPlan -->
+    <string name="GoTravel_MakeTravelPlanLevel1_ChoiceArea">선택된 지역 :</string>
+    <string name="GoTravel_MakeTravelPlanLevel1_Info">이용하실 시설 종류를 골라주세요.</string>
+    <string name="GoTravel_MakeTravelPlanLevel1_Bed">숙박시설</string>
+    <string name="GoTravel_MakeTravelPlanLevel1_Eat">식당</string>
+    <string name="GoTravel_MakeTravelPlanLevel1_See">관광지</string>
+    <string name="GoTravel_MakeTravelPlanLevel1_Play">놀이시설</string>
+    <string name="GoTravel_MakeTravelPlanLevel1_Car">교통관련</string>
+
+</resources>
