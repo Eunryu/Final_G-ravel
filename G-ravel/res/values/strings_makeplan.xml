@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Makeplan_CBigArea">큰분류 지역선택</string>
+    <string name="Makeplan_BigArea_memo">여행가실 지역을 선택해 주세요</string>
+    <string name="Makeplan_how">경로 만들방법 고르기</string>
+    <string name="Makeplan_how_memo1">추천경로를 보실지 자신이 경로를 새로 만드실지에 대해 선택하는 단계입니다.</string>
+    <string name="Makeplan_how_memo2">버튼을 눌러 선택하시면 이동합니다.</string>
+    <string name="Makeplan_btnBest">추천경로로 만들기</string>
+    <string name="Makeplan_btnMakeplan">여행경로 직접만들기</string>
+    <string name="Makeplan_CSmallArea">세부지역 지역선택</string>
+    
+    <!-- 추천경로 -->
+    <string name="Makeplan_bestLevel1">추천경로로 만들기 1단계</string>
+    <string name="Makeplan_bestLevel2">추천경로로 만들기 2단계</string>
+    <string name="Makeplan_bestLevel1_memo1">원하시는 분류를 선택해주세요</string>
+    <string name="Makeplan_bestLevel1_Healing">힐링여행</string>
+    <string name="Makeplan_bestLevel1_work">체험여행</string>
+    <string name="Makeplan_bestLevel1_Family">가족여행</string>
+    <string name="Makeplan_bestLevel1_Date">데이트여행</string>
+    <string name="Makeplan_bestLevel1_SeeArea">관광지여행</string>
+    <string name="Makeplan_bestLevel2_setPackage">선택된 패키지 : </string>
+    <string name="Makeplan_bestLevel2_memo1">여행하실 지역을 골라주세요</string>
+    <string name="Makeplan_bestLevel3_setArea">선택된 지역 : </string>
+    <string name="Makeplan_bestLevel3_memo1">선택하신 지역에 대한 리스트 입니다.</string>
+    <string name="Makeplan_bestLevel4_setPackage">선택한 여행리스트 : </string>
+    <string name="Makeplan_bestLevel4_memo1">선택한 여행타이틀에 대한 리스트 입니다. 경로를 누르시면 더 자세한 경로를 볼수 있습니다.</string>
+    <string name="Makeplan_bestLevel4_OK">이 리스트로 결정</string>
+    
+    <!-- 경로 만들기 -->
+    <string name="Makeplan_makeLevel1">여행경로 만들기</string>
+    <string name="Makeplan_makeLevel1_memo1">여행경로를 만듭니다. 경로에 넣으실 종류를 골라주세요</string>
+    <string name="Makeplan_makeLevel1_eat">식당</string>
+    <string name="Makeplan_makeLevel1_see">관광지</string>
+    <string name="Makeplan_makeLevel1_bed">숙박</string>
+    <string name="Makeplan_makeLevel1_play">놀이시설</string>
+    <string name="Makeplan_makeLevel1_car">교통수단</string>
+    <string name="Makeplan_makeLevel2">세부지역 선택</string>
+    <string name="Makeplan_makeLevel2_memo">여행가실 지역을 골라주세요</string>
+    <string name="Makeplan_makeLevel3"> 선택</string>
+    <string name="Makeplan_makeLevel3_memo1">리스트에서 여행경로에 추가할 경로를 골라주세요</string>
+    <string name="Makeplan_makeLevel4_add">이 경로 추가하기</string>
+    
+    <!-- 여행경로 만들기 통합 -->
+    <string name="Makeplan_total">세부정보</string>
+    <string name="Makeplan_total_name">이름 : </string>
+    <string name="Makeplan_total_address">주소 : </string>
+    <string name="Makeplan_total_phone">전화번호 : </string>
+    <string name="Makeplan_total_URL">홈페이지 주소 : </string>
+    <string name="Makeplan_total_seeMap">지도보기</string>
+    <string name="Makeplan_total_book">예약하기 : </string>
+    <string name="Makeplan_total_detail">자세한 정보</string>
+    <string name="Makeplan_total_bookNo">예약 미완료</string>
+    <string name="Makeplan_total_bookX">예약 안해도 됨</string>
+    <string name="Makeplan_total_bookPhone">전화</string>
+    <string name="Makeplan_total_bookURL">인터넷</string>
+</resources>

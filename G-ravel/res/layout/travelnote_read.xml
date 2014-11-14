@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/top_bar"
+        android:src="@drawable/intro" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/Note_title"
+            />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_TravelNoteRead_title"
+            android:text="@string/Note_title"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/Note_Writer"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_none"
+            android:id="@+id/tv_TravelNoteRead_writer"
+            android:layout_marginRight="10dp"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/Note_Date"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_none"
+            android:id="@+id/tv_TravelNoteRead_Date"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/Note_Message"
+            />
+
+        <Button
+            android:id="@+id/btn_TravelNoteRead_SeeMyRoad"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button2"
+            android:text="@string/Note_SeeMyRoad" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_TravelNoteRead_Message"
+            android:text="@string/Note_Message"
+            />
+    </ScrollView>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Note_LikeNum"
+            android:layout_marginRight="10dp"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_none"
+            android:id="@+id/tv_TravelNoteRead_Likenum"
+            />
+
+        <Button
+            android:id="@+id/btn_TravelNoteRead_Like"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/button2"
+            android:text="@string/Note_Like" />
+
+    </LinearLayout>
+	<include 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/include_addwrite"
+	    />
+	<ListView 
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:id="@+id/lv_TravelNoteRead_comment"
+	    ></ListView>
+</LinearLayout>

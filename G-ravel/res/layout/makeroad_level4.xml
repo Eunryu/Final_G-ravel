@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/top_bar"
+        android:src="@drawable/intro" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Makeplan_total" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Makeplan_total_name" />
+
+        <TextView
+            android:id="@+id/tv_Areainfo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_none" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Makeplan_total_address" />
+
+        <TextView
+            android:id="@+id/tv_Areainfo_address"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_none" />
+
+        <Button
+            android:id="@+id/btn_AreaInfo_seeMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button2"
+            android:text="@string/Makeplan_total_seeMap" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Makeplan_total_phone" />
+
+        <TextView
+            android:id="@+id/tv_Areainfo_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="010-8609-0636" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Makeplan_total_URL" />
+
+        <TextView
+            android:id="@+id/tv_Areainfo_URL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="http://www.naver.com" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Makeplan_total_book" />
+
+        <TextView
+            android:id="@+id/tv_Areainfo_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Makeplan_total_bookNo" />
+
+        <Button
+            android:id="@+id/btn_AreaInfo_bookPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button2"
+            android:text="@string/Makeplan_total_bookPhone" />
+
+        <Button
+            android:id="@+id/btn_AreaInfo_bookURL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button2"
+            android:text="@string/Makeplan_total_bookURL" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Makeplan_total_detail" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+
+        <TextView
+            android:id="@+id/tv_MakePlanLevel4_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_MakeRoadLevel5_add"
+     android:layout_width="120dp"
+android:layout_height="50dp"
+        android:text="@string/Makeplan_makeLevel4_add"
+        android:textColor="#ffffff"
+android:background="@drawable/button"
+android:layout_gravity="center" />
+
+</LinearLayout>

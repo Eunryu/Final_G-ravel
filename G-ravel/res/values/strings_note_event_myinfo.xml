@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 이벤트 -->
+    <string name="Event_info">이벤트 안내</string>
+    <string name="Event_memo1">각종 이벤트에 대해 안내해 드릡니다.</string>
+    <string name="EventView">[이벤트 상세내용]</string>
+    <string name="EventView_title">제목 : </string>
+    <string name="EventView_Date">날짜 : </string>
+    <string name="EventView_Message">내용</string>
+    
+    <!-- 여행노트 -->
+    <string name="TravelNote_title">[여행노트]</string>
+    <string name="TravelNote_Search">검색</string>
+    <string name="TravelNote_write_title">제목</string>
+    <string name="TravelNote_write_writer">작성자</string>
+    <string name="TravelNote_write_date">작성날짜</string>
+    <string name="TravelNote_write_addPlan">여행기록 추가</string>
+    <string name="TravelNote_write_Memo">내용</string>
+    <string name="TravelNote_write_addPicture">사진추가</string>
+    <string name="TravelNote_write_OK">확인</string>
+    <string name="TravelNote_write_Cancle">취소</string>
+    
+    <!-- 내정보 -->
+    <string name="MyInfo_title">[내 정보]</string>
+    <string name="MyInfo_seeMyinfo">내정보 보기</string>
+    <string name="MyInfo_fixinfo">내정보 수정</string>
+    <string name="MyInfo_name">이름 : </string>
+    <string name="MyInfo_nickname">닉네임 : </string>
+    <string name="MyInfo_address">주소 : </string>
+    <string name="MyInfo_phone">전화번호 : </string>
+    <string name="MyInfo_email">이메일 : </string>
+    <string name="MyInfo_fixpassword">비밀번호 바꾸기</string>
+    <string name="MyInfo_fixOk">수정완료</string>
+    <string name="MyInfo_oftenArea">자주가는 경로</string>
+    <string name="MyInfo_travelRecord">여행기록 보기</string>
+    <string name="MyInfo_Mystamp">My stamp</string>
+    <string name="MyInfo_search">검색</string>
+    
+    <!-- 타이틀 모음 -->
+    <string name="MyInfo_Title_SeeMyInfo">[내정보 보기]</string>
+    <string name="MyInfo_Title_fixMyinfo">[내정보 수정]</string>
+    <string name="MyInfo_Title_oftenArea">[자주가는 경로]</string>
+    <string name="MyInfo_Title_TravelRecord">[여행기록 보기]</string>
+    <string name="MyInfo_Title_Mystamp">[MY STAMP]</string>
+</resources>

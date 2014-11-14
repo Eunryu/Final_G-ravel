@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Search_id_title">[아이디 찾기]</string>
+    <string name="Search_id_Memo">아이디 찾기입니다. 이메일을 입력해주세요</string>
+    <string name="Search_pw_title">[비밀번호 찾기]</string>
+    <string name="Search_pw_Memo">비밀번호 찾기 입니다. 아이디와 이메일을 입력해주세요..</string>
+    <string name="Search_eamil">내 이메일 : </string>
+    <string name="Search_id">내 아이디 : </string>
+    <string name="Search_exampleEmail">aaa@example.com</string>
+    <string name="Search_result">결과보기</string>
+    <string name="Search_newPassword">새 비밀번호 :</string>
+    <string name="Search_newPassword2">비밀번호 확인 :</string>
+    <string name="Search_ChangePassword_result">변경하기</string>
+</resources>

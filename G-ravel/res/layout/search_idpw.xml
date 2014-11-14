@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_IdpwSearch_idSearchTitle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="@string/Search_id_title"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_IdpwSearch_pwSearchTitle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="@string/Search_pw_title"
+                android:textColor="#ffffff" />
+        </TableRow>
+    </TableLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include
+            android:id="@+id/ic_IdpwSearch_idSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/include_searchidpw_id" />
+
+        <include
+            android:id="@+id/ic_IdpwSearch_pwSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/include_searchidpw_pw" />
+    </FrameLayout>
+
+</LinearLayout>

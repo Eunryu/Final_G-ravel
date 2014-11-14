@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/top_bar"
+        android:src="@drawable/intro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/join_checkme_title"
+        android:textColor="#f3a00f"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/join_checkme_message1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/join_checkme_message2" />
+
+    <TextView
+        android:id="@+id/tv_Checkme_myphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/join_checkme_myphone" />
+
+    <Button
+        android:id="@+id/btn_Checkme_sendOK"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:text="@string/join_checkme_sendOk"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_checkme_number" />
+
+        <EditText
+            android:id="@+id/et_Checkme_Number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/join_checkme_sendOk" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_Checkme_check"
+            style="?android:attr/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="@string/join_checkme_Check"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_Checkme_cancle"
+            style="?android:attr/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="@string/join_checkme_Cancle"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</LinearLayout>

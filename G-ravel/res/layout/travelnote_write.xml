@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/top_bar"
+        android:src="@drawable/intro" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/Note_title" />
+
+        <EditText
+            android:id="@+id/et_TravelNoteWrite_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Note_title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/Note_Message" />
+
+        <Button
+            android:id="@+id/btn_TravelNoteWrite_AddMyRoad"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button2"
+            android:text="@string/Note_AddMyRoad" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+
+        <EditText
+            android:id="@+id/et_TravelNoteWrtie_Message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Note_Message" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_TravelNoteWrite_addPicture"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="@string/Note_AddPicture"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_TravelNoteWrite_OK"
+            style="?android:attr/button"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/button"
+            android:text="@string/Note_WriteEnd"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_TravelNoteWrite_Cancle"
+            style="?android:attr/button"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="@string/Note_WriteCancle"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

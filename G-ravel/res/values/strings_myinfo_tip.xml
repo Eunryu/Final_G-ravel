@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Setting_main -->
+    <string name="setting_appNotice">앱공지 보기</string>
+    <string name="setting_versionTitle">버전정보</string>
+    <string name="setting_version">현재버전 : </string>
+    <string name="setting_Newversion">최신버전 : </string>
+    <string name="setting_update">업데이트</string>
+    <string name="setting_alam">알림설정</string>
+    <string name="setting_eventAlam">이벤트알림</string>
+    <string name="setting_travelAlam">여행알림</string>
+    <string name="setting_makeinfotitle">[만든이 정보]</string>
+    <string name="setting_makeTeamName">제작 팀 : </string>
+    <string name="setting_makeTeam">이상한 코딩나라의 부엉이들</string>
+    <string name="setting_question"> [문의사항 전달하기] </string>
+    <string name="question_email">이메일로 문의하기</string>
+    <string name="question_memo">정보오류나 문의사항을 받습니다.</string>
+    
+    <!-- AppNotice -->
+    <string name="appNotice_title">어플 공지입니다.</string>
+    
+    <!-- tip -->
+    <string name="tip_main">[유용한정보 및 팁]</string>
+    <string name="tip_traveltip">여행 팁</string>
+    <string name="tip_usefullArea">편의시설 정보</string>
+    <string name="tip_event">축제/행사</string>
+    <string name="tip_eventTitle">제목 : </string>
+    <string name="tip_eventDate">기간 :</string>
+</resources>

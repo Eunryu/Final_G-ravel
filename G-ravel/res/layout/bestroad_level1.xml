@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/top_bar"
+        android:src="@drawable/intro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/Makeplan_bestLevel1"
+        android:textColor="#f3a00f"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/Makeplan_bestLevel1_memo1" />
+
+    <Button
+        android:id="@+id/btn_BestRoadLevel1_Healing"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="@string/Makeplan_bestLevel1_Healing"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_BestRoadLevel1_Family"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="@string/Makeplan_bestLevel1_Family"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_BestRoadLevel1_work"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="@string/Makeplan_bestLevel1_work"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_BestRoadLevel1_Date"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="@string/Makeplan_bestLevel1_Date"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_BestRoadLevel1_SeeArea"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="@string/Makeplan_bestLevel1_SeeArea"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</LinearLayout>

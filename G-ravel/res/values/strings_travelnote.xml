@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Note_title">제목</string>
+    <string name="Note_Writer">작성자</string>
+    <string name="Note_Date">작성일</string>
+    <string name="Note_Message">내용</string>
+    <string name="Note_AddMyRoad">내 경로 추가</string>
+    <string name="Note_SeeMyRoad">추가된 경로보기</string>
+    <string name="Note_AddPicture">사진추가하기</string>
+    <string name="Note_Like">추천하기</string>
+    <string name="Note_Add">내 여행경로에 추가</string>
+    <string name="Note_WriteEnd">작성완료</string>
+    <string name="Note_WriteCancle">작성취소</string>
+    <string name="Note_LikeNum">추천수</string>
+    <string name="Note_comment">덧글List</string>
+</resources>

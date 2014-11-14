@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_goTravel">여행가기</string>
+    <string name="main_TravelNote">여행노트</string>
+    <string name="main_G_map">G-map</string>
+    <string name="main_G_train">G-train</string>
+    <string name="main_Tips">여행 팁</string>
+    <string name="main_event">이벤트</string>
+    <string name="main_myinfo">내정보</string>
+    <string name="main_setting">설정</string>
+    
+    <!-- slide -->
+    <string name="slide_none">none</string>
+    <string name="slide_hi">님.</string>
+</resources>

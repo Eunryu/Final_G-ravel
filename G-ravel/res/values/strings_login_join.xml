@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">G-ravel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- 로그인 파트 -->
+    <string name="login_logo">로그인</string>
+    <string name="login_id">아이디</string>
+    <string name="login_pw">비밀번호</string>
+    <string name="login_join">회원가입</string>
+    <string name="login_idpwSearch">아이디/비번찾기</string>
+    <string name="login_login">로그인</string>
+    <string name="login_nonlogin">비회원로그인</string>
+    
+    <!-- 회원가입 파트 -->
+    <string name="join_agreement_title">약관동의</string>
+    <string name="join_agreement_firstagreement">개인정보 수집동의</string>
+    <string name="join_agreement_agree">동의</string>
+    <string name="join_agreement_Secondagreement">앱 약관동의</string>
+    <string name="join_agreement_first">nonenonenonenoneneoenoenoandklf;a</string>
+    <string name="join_agreement_second">akjsdf;lasdl;fjlskdajfl</string>
+    <string name="join_agreement_noneagree">동의하지 않음</string>
+    
+    <string name="join_write_title">[가입정보 입력]</string>
+    <string name="join_write_sameCheck">중복체크</string>
+    <string name="join_write_e">"@"</string>
+    <string name="join_write_id">아이디</string>
+    <string name="join_write_pw">비밀번호</string>
+    <string name="join_write_pw2">비밀번호 확인</string>
+    <string name="join_write_pws">확인중</string>
+    <string name="join_write_nickname">닉네임</string>
+    <string name="join_write_phone">전화번호</string>
+    <string name="join_write_email">이메일</string>
+    <string name="join_write_address">주소</string>
+    <string name="join_write_next">다음</string>
+    <string name="join_write_cancle">가입취소</string>
+    
+    <string name="join_checkme_title">본인인증</string>
+    <string name="join_checkme_message1">회원가입의 마지막 절차인 본인인증입니다.</string>
+    <string name="join_checkme_message2">본인임을 확인하는 절차입니다. 폰번호를 확인하시고 본인의 것이 맞다면 인증번호 전송을 눌러주세요.</string>
+    <string name="join_checkme_sendOk">인증번호 전송</string>
+    <string name="join_checkme_number">인증번호 : </string>
+    <string name="join_checkme_myphone">none</string>
+    <string name="join_checkme_Check">인증하기</string>
+    <string name="join_checkme_Cancle">뒤로가기</string>
+    
+    <!-- 아이디/패스워드 찾기 -->
+
+</resources>
