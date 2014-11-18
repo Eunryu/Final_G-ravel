@@ -6,6 +6,11 @@
     <string name="action_settings">Settings</string>
 
     <!-- 공통 -->
+    <string name="All_Bed">숙박시설</string>
+    <string name="All_Eat">식당</string>
+    <string name="All_See">관광지</string>
+    <string name="All_Play">놀이시설</string>
+    <string name="All_Car">교통관련</string>
     <string name="All_None">none</string>
     <string name="All_ShopName">이름 :</string>
     <string name="All_ShopAddress">주소 :</string>
@@ -45,14 +50,38 @@
     <string name="GoTravel_BestRoadLevel2_Info">선택된 패키지 종류에 대한 패키지들 입니다. 원하시는 패키지를 누르시면 자세히 볼수 있습니다.</string>
     <string name="GoTravel_BestRoadLevel3_Info">선택하신 패키지에 들어있는 경로들입니다. 클릭을 하시면 자세히 볼수 있습니다. 이 패키지의 경로로 결정하시려면 버튼을 눌러주세요.</string>
     <string name="GoTravel_BestRoadLevel3_OKBtn">이 패키지로 결정</string>
-    
+
     <!-- MakeTravelPlan -->
     <string name="GoTravel_MakeTravelPlanLevel1_ChoiceArea">선택된 지역 :</string>
     <string name="GoTravel_MakeTravelPlanLevel1_Info">이용하실 시설 종류를 골라주세요.</string>
-    <string name="GoTravel_MakeTravelPlanLevel1_Bed">숙박시설</string>
-    <string name="GoTravel_MakeTravelPlanLevel1_Eat">식당</string>
-    <string name="GoTravel_MakeTravelPlanLevel1_See">관광지</string>
-    <string name="GoTravel_MakeTravelPlanLevel1_Play">놀이시설</string>
-    <string name="GoTravel_MakeTravelPlanLevel1_Car">교통관련</string>
+    <string name="GoTravel_MakeTravelPlanLevel2_ChoiceSelect">에 대한 리스트입니다.</string>
+    <string name="GoTravel_MakeTravelPlanLevel2_Info">리스트에서 원하시는 것을 누르시면 자세한 내용을 확인할수 있습니다.</string>
+    <string name="GoTravel_MakeTravelPlanLevel3_Add">내경로에 추가하기</string>
 
+    <!-- WorldMap, TrainMap -->
+    <string name="WorldMap_WorldMap_Title">== World Map ==</string>
+    <string name="TrainMap_TrainMap_Title">== Train Map ==</string>
+
+    <!-- InstantBook -->
+    <string name="InstantBook_Main_Title">== 즉석 예약 ==</string>
+    <string name="InstantBook_Main_Info">즉석 예약하실 장소의 종류를 골라주세요.</string>
+    <string name="InstantBook_Search_Title">== 즉석예약 장소보기 ==</string>
+    <string name="InstantBook_Search_Info">선택하신 종류에 대한 주위정보 입니다. 클릭하시면 자세한 정보를 보거나 예약할수 있습니다.</string>
+	
+    <!-- Setting -->
+    <string name="Setting_VersionInfo">== 버전정보 ==</string>
+    <string name="Setting_NowVersion">현재버전</string>
+    <string name="Setting_NextVersion">최신버전</string>
+    <string name="Setting_NextVersionInfo">== 최신 업데이트 정보 ==</string>
+    <string name="Setting_Update">업데이트</string>
+    
+    <!-- UsefulInfo -->
+    <string name="UsefulInfo_Main_Title">유용한 정보</string>
+    <string name="UsefulInfo_Tip_All">유용한 팁</string>
+    <string name="UsefulInfo_UsefulArea_All">유용한 장소</string>
+    <string name="UsefulInfo_Festival_All">축제/행사</string>
+    
+    <!-- Event -->
+    <string name="Event_Main_Title">이벤트</string>
+    <string name="Event_Main_Info">이벤트보기</string>
 </resources>

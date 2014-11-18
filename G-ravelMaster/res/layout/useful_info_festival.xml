@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_festival_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/UsefulInfo_Festival_All"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/sp_UsefulFestival_SelectInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/lv_UsefulFestival_NameList"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_UsefulInfo_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/UsefulInfo_Main_Title"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_UsefulInfo_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/UsefulInfo_Tip_All" />
+
+    <Button
+        android:id="@+id/btn_UsefulInfo_usefulspace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/UsefulInfo_UsefulArea_All" />
+
+    <Button
+        android:id="@+id/btn_UsefulInfo_festival"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/UsefulInfo_Festival_All" />
+
+</LinearLayout>

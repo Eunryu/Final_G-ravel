@@ -1080,6 +1080,8 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020057;
     }
     public static final class id {
+        public static final int Setting_Version_Next=0x7f050077;
+        public static final int Setting_Version_Now=0x7f050076;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1091,7 +1093,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f05005f;
+        public static final int action_settings=0x7f050084;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1102,20 +1104,34 @@ containing a value of this type.
         public static final int btn_BestRoadLevel1_Seeing=0x7f050041;
         public static final int btn_BestRoadLevel3_OkBtn=0x7f050044;
         public static final int btn_BestRoadLevel4_SeeMap=0x7f05004a;
-        public static final int btn_MakeTravelPlanLevel1_Bed=0x7f05005a;
-        public static final int btn_MakeTravelPlanLevel1_Car=0x7f05005e;
-        public static final int btn_MakeTravelPlanLevel1_Eat=0x7f05005b;
-        public static final int btn_MakeTravelPlanLevel1_Play=0x7f05005d;
-        public static final int btn_MakeTravelPlanLevel1_See=0x7f05005c;
+        public static final int btn_InstantBookMain_Bed=0x7f05005f;
+        public static final int btn_InstantBookMain_Car=0x7f050063;
+        public static final int btn_InstantBookMain_Eat=0x7f050060;
+        public static final int btn_InstantBookMain_Play=0x7f050062;
+        public static final int btn_InstantBookMain_See=0x7f050061;
+        public static final int btn_MakeTravelPlanLevel1_Bed=0x7f050066;
+        public static final int btn_MakeTravelPlanLevel1_Car=0x7f05006a;
+        public static final int btn_MakeTravelPlanLevel1_Eat=0x7f050067;
+        public static final int btn_MakeTravelPlanLevel1_Play=0x7f050069;
+        public static final int btn_MakeTravelPlanLevel1_See=0x7f050068;
+        public static final int btn_MakeTravelPlanLevel3_LoadAdd=0x7f050075;
+        public static final int btn_MakeTravelPlanLevel3_SeeMap=0x7f050071;
+        public static final int btn_UsefulInfo_festival=0x7f05007e;
+        public static final int btn_UsefulInfo_tip=0x7f05007c;
+        public static final int btn_UsefulInfo_usefulspace=0x7f05007d;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int custom_iv_BestRoadLevel2_InfoImage=0x7f050052;
+        public static final int custom_iv_MakeTravelPlanLevel2_InfoImage=0x7f050059;
         public static final int custom_tv_BestRoadLevel2_AreaInfo=0x7f050054;
         public static final int custom_tv_BestRoadLevel2_PackageInfo=0x7f050055;
         public static final int custom_tv_BestRoadLevel2_title=0x7f050053;
         public static final int custom_tv_BestRoadLevel3_Selection=0x7f050056;
         public static final int custom_tv_BestRoadLevel3_ShopArea=0x7f050058;
         public static final int custom_tv_BestRoadLevel3_ShopName=0x7f050057;
+        public static final int custom_tv_MakeTravelPlanLevel2_ShopArea=0x7f05005b;
+        public static final int custom_tv_MakeTravelPlanLevel2_ShopName=0x7f05005a;
+        public static final int custom_tv_MakeTravelPlanLevel2_ShopSelect=0x7f05005c;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
@@ -1130,6 +1146,8 @@ containing a value of this type.
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
         public static final int iv_BestRoadLevel4_InfoImage=0x7f050046;
+        public static final int iv_InstantBookSearch_GoogleMap=0x7f050064;
+        public static final int iv_MakeTravelPlanLevel3_InfoImage=0x7f05006d;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int lv_BestRoadLevel2_PackageList=0x7f050043;
@@ -1137,6 +1155,11 @@ containing a value of this type.
         public static final int lv_ChooseBigArea_MainList=0x7f05004e;
         public static final int lv_ChooseGoPlanway_AreaList=0x7f050050;
         public static final int lv_ChooseSmallArea_SmallAreaList=0x7f050051;
+        public static final int lv_MakeTravelPlanLevel2_AreaInfoList=0x7f05006c;
+        public static final int lv_UsefulArea_ShopList=0x7f050083;
+        public static final int lv_UsefulFestival_NameList=0x7f05007a;
+        public static final int lv_UsefulTip_TipList=0x7f050080;
+        public static final int lv_event_eventinfo=0x7f05005e;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
@@ -1158,6 +1181,8 @@ containing a value of this type.
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
         public static final int showTitle=0x7f050006;
+        public static final int sp_UsefulArea_NameList=0x7f050082;
+        public static final int sp_UsefulFestival_SelectInfo=0x7f050079;
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
@@ -1172,7 +1197,19 @@ containing a value of this type.
         public static final int tv_BestRoadLevel4_ShopSelect=0x7f050048;
         public static final int tv_BestRoadLevel4_ShopURL=0x7f05004b;
         public static final int tv_ChooseGoPlanway_AreaName=0x7f05004f;
-        public static final int tv_MakeTravelPlanLevel1_ChoiceArea=0x7f050059;
+        public static final int tv_MakeTravelPlanLevel1_ChoiceArea=0x7f050065;
+        public static final int tv_MakeTravelPlanLevel2_Select=0x7f05006b;
+        public static final int tv_MakeTravelPlanLevel3_ShopAddress=0x7f050070;
+        public static final int tv_MakeTravelPlanLevel3_ShopInfo=0x7f050074;
+        public static final int tv_MakeTravelPlanLevel3_ShopName=0x7f05006e;
+        public static final int tv_MakeTravelPlanLevel3_ShopPhone=0x7f050073;
+        public static final int tv_MakeTravelPlanLevel3_ShopSelect=0x7f05006f;
+        public static final int tv_MakeTravelPlanLevel3_ShopURL=0x7f050072;
+        public static final int tv_UsefulInfo_title=0x7f05007b;
+        public static final int tv_event_title=0x7f05005d;
+        public static final int tv_festival_title=0x7f050078;
+        public static final int tv_usefulspace_title=0x7f050081;
+        public static final int tv_usefultip_title=0x7f05007f;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
@@ -1236,8 +1273,21 @@ containing a value of this type.
         public static final int choose_small_area=0x7f03001e;
         public static final int custom_best_road_level2=0x7f03001f;
         public static final int custom_best_road_level3=0x7f030020;
-        public static final int make_travel_plan_level1=0x7f030021;
-        public static final int support_simple_spinner_dropdown_item=0x7f030022;
+        public static final int custom_make_travel_plan_level2=0x7f030021;
+        public static final int event=0x7f030022;
+        public static final int instant_book_main=0x7f030023;
+        public static final int instant_book_search=0x7f030024;
+        public static final int make_travel_plan_level1=0x7f030025;
+        public static final int make_travel_plan_level2=0x7f030026;
+        public static final int make_travel_plan_level3=0x7f030027;
+        public static final int setting=0x7f030028;
+        public static final int support_simple_spinner_dropdown_item=0x7f030029;
+        public static final int train_map=0x7f03002a;
+        public static final int useful_info_festival=0x7f03002b;
+        public static final int useful_info_main=0x7f03002c;
+        public static final int useful_info_tip=0x7f03002d;
+        public static final int useful_info_useful_area=0x7f03002e;
+        public static final int world_map=0x7f03002f;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1245,54 +1295,84 @@ containing a value of this type.
     public static final class string {
         /**  공통 
          */
-        public static final int All_None=0x7f0a0010;
-        public static final int All_ShopAddress=0x7f0a0012;
-        public static final int All_ShopBookingCheck=0x7f0a0018;
-        public static final int All_ShopBookingNo=0x7f0a001b;
-        public static final int All_ShopBookingNono=0x7f0a001a;
-        public static final int All_ShopBookingOk=0x7f0a0019;
-        public static final int All_ShopBookingPhone=0x7f0a001d;
-        public static final int All_ShopBookingURL=0x7f0a001c;
-        public static final int All_ShopInfo=0x7f0a0014;
-        public static final int All_ShopName=0x7f0a0011;
-        public static final int All_ShopPhone=0x7f0a0016;
-        public static final int All_ShopSeeMap=0x7f0a0015;
-        public static final int All_ShopSelect=0x7f0a0017;
-        public static final int All_ShopURL=0x7f0a0013;
+        public static final int All_Bed=0x7f0a0010;
+        public static final int All_Car=0x7f0a0014;
+        public static final int All_Eat=0x7f0a0011;
+        public static final int All_None=0x7f0a0015;
+        public static final int All_Play=0x7f0a0013;
+        public static final int All_See=0x7f0a0012;
+        public static final int All_ShopAddress=0x7f0a0017;
+        public static final int All_ShopBookingCheck=0x7f0a001d;
+        public static final int All_ShopBookingNo=0x7f0a0020;
+        public static final int All_ShopBookingNono=0x7f0a001f;
+        public static final int All_ShopBookingOk=0x7f0a001e;
+        public static final int All_ShopBookingPhone=0x7f0a0022;
+        public static final int All_ShopBookingURL=0x7f0a0021;
+        public static final int All_ShopInfo=0x7f0a0019;
+        public static final int All_ShopName=0x7f0a0016;
+        public static final int All_ShopPhone=0x7f0a001b;
+        public static final int All_ShopSeeMap=0x7f0a001a;
+        public static final int All_ShopSelect=0x7f0a001c;
+        public static final int All_ShopURL=0x7f0a0018;
+        public static final int Event_Main_Info=0x7f0a004d;
+        /**  Event 
+         */
+        public static final int Event_Main_Title=0x7f0a004c;
         /**  BestRoad 
          */
-        public static final int GoTravel_BestRoadLevel1_ChoiceArea=0x7f0a0023;
-        public static final int GoTravel_BestRoadLevel1_Date=0x7f0a0027;
-        public static final int GoTravel_BestRoadLevel1_DateInfo=0x7f0a002c;
-        public static final int GoTravel_BestRoadLevel1_Family=0x7f0a0029;
-        public static final int GoTravel_BestRoadLevel1_FamilyInfo=0x7f0a002e;
-        public static final int GoTravel_BestRoadLevel1_Healing=0x7f0a0025;
-        public static final int GoTravel_BestRoadLevel1_HealingInfo=0x7f0a002a;
-        public static final int GoTravel_BestRoadLevel1_Info=0x7f0a0024;
-        public static final int GoTravel_BestRoadLevel1_Playing=0x7f0a0028;
-        public static final int GoTravel_BestRoadLevel1_PlayingInfo=0x7f0a002d;
-        public static final int GoTravel_BestRoadLevel1_Seeing=0x7f0a0026;
-        public static final int GoTravel_BestRoadLevel1_SeeingInfo=0x7f0a002b;
-        public static final int GoTravel_BestRoadLevel2_ChoicePackage=0x7f0a002f;
-        public static final int GoTravel_BestRoadLevel2_Info=0x7f0a0030;
-        public static final int GoTravel_BestRoadLevel3_Info=0x7f0a0031;
-        public static final int GoTravel_BestRoadLevel3_OKBtn=0x7f0a0032;
+        public static final int GoTravel_BestRoadLevel1_ChoiceArea=0x7f0a0028;
+        public static final int GoTravel_BestRoadLevel1_Date=0x7f0a002c;
+        public static final int GoTravel_BestRoadLevel1_DateInfo=0x7f0a0031;
+        public static final int GoTravel_BestRoadLevel1_Family=0x7f0a002e;
+        public static final int GoTravel_BestRoadLevel1_FamilyInfo=0x7f0a0033;
+        public static final int GoTravel_BestRoadLevel1_Healing=0x7f0a002a;
+        public static final int GoTravel_BestRoadLevel1_HealingInfo=0x7f0a002f;
+        public static final int GoTravel_BestRoadLevel1_Info=0x7f0a0029;
+        public static final int GoTravel_BestRoadLevel1_Playing=0x7f0a002d;
+        public static final int GoTravel_BestRoadLevel1_PlayingInfo=0x7f0a0032;
+        public static final int GoTravel_BestRoadLevel1_Seeing=0x7f0a002b;
+        public static final int GoTravel_BestRoadLevel1_SeeingInfo=0x7f0a0030;
+        public static final int GoTravel_BestRoadLevel2_ChoicePackage=0x7f0a0034;
+        public static final int GoTravel_BestRoadLevel2_Info=0x7f0a0035;
+        public static final int GoTravel_BestRoadLevel3_Info=0x7f0a0036;
+        public static final int GoTravel_BestRoadLevel3_OKBtn=0x7f0a0037;
         /**  여행가기 
          */
-        public static final int GoTravel_ChooseBigArea_Title=0x7f0a001e;
-        public static final int GoTravel_ChooseGoPlanway_AreaName=0x7f0a001f;
-        public static final int GoTravel_ChooseGoPlanway_Title=0x7f0a0020;
-        public static final int GoTravel_ChooseSmallARea_Title=0x7f0a0021;
-        public static final int GoTravel_ChooseSmallArea_InfoText=0x7f0a0022;
-        public static final int GoTravel_MakeTravelPlanLevel1_Bed=0x7f0a0035;
-        public static final int GoTravel_MakeTravelPlanLevel1_Car=0x7f0a0039;
+        public static final int GoTravel_ChooseBigArea_Title=0x7f0a0023;
+        public static final int GoTravel_ChooseGoPlanway_AreaName=0x7f0a0024;
+        public static final int GoTravel_ChooseGoPlanway_Title=0x7f0a0025;
+        public static final int GoTravel_ChooseSmallARea_Title=0x7f0a0026;
+        public static final int GoTravel_ChooseSmallArea_InfoText=0x7f0a0027;
         /**  MakeTravelPlan 
          */
-        public static final int GoTravel_MakeTravelPlanLevel1_ChoiceArea=0x7f0a0033;
-        public static final int GoTravel_MakeTravelPlanLevel1_Eat=0x7f0a0036;
-        public static final int GoTravel_MakeTravelPlanLevel1_Info=0x7f0a0034;
-        public static final int GoTravel_MakeTravelPlanLevel1_Play=0x7f0a0038;
-        public static final int GoTravel_MakeTravelPlanLevel1_See=0x7f0a0037;
+        public static final int GoTravel_MakeTravelPlanLevel1_ChoiceArea=0x7f0a0038;
+        public static final int GoTravel_MakeTravelPlanLevel1_Info=0x7f0a0039;
+        public static final int GoTravel_MakeTravelPlanLevel2_ChoiceSelect=0x7f0a003a;
+        public static final int GoTravel_MakeTravelPlanLevel2_Info=0x7f0a003b;
+        public static final int GoTravel_MakeTravelPlanLevel3_Add=0x7f0a003c;
+        public static final int InstantBook_Main_Info=0x7f0a0040;
+        /**  InstantBook 
+         */
+        public static final int InstantBook_Main_Title=0x7f0a003f;
+        public static final int InstantBook_Search_Info=0x7f0a0042;
+        public static final int InstantBook_Search_Title=0x7f0a0041;
+        public static final int Setting_NextVersion=0x7f0a0045;
+        public static final int Setting_NextVersionInfo=0x7f0a0046;
+        public static final int Setting_NowVersion=0x7f0a0044;
+        public static final int Setting_Update=0x7f0a0047;
+        /**  Setting 
+         */
+        public static final int Setting_VersionInfo=0x7f0a0043;
+        public static final int TrainMap_TrainMap_Title=0x7f0a003e;
+        public static final int UsefulInfo_Festival_All=0x7f0a004b;
+        /**  UsefulInfo 
+         */
+        public static final int UsefulInfo_Main_Title=0x7f0a0048;
+        public static final int UsefulInfo_Tip_All=0x7f0a0049;
+        public static final int UsefulInfo_UsefulArea_All=0x7f0a004a;
+        /**  WorldMap, TrainMap 
+         */
+        public static final int WorldMap_WorldMap_Title=0x7f0a003d;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0a0001;

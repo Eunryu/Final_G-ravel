@@ -4,55 +4,42 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <LinearLayout
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:text="@string/GoTravel_MakeTravelPlanLevel1_ChoiceArea" />
-
-        <TextView
-            android:id="@+id/tv_MakeTravelPlanLevel1_ChoiceArea"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/All_None" />
-    </LinearLayout>
+        android:text="@string/InstantBook_Main_Title" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/GoTravel_MakeTravelPlanLevel1_Info" />
+        android:text="@string/InstantBook_Main_Info" />
 
     <Button
-        android:id="@+id/btn_MakeTravelPlanLevel1_Bed"
+        android:id="@+id/btn_InstantBookMain_Bed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/All_Bed" />
 
     <Button
-        android:id="@+id/btn_MakeTravelPlanLevel1_Eat"
+        android:id="@+id/btn_InstantBookMain_Eat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/All_Eat" />
 
     <Button
-        android:id="@+id/btn_MakeTravelPlanLevel1_See"
+        android:id="@+id/btn_InstantBookMain_See"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/All_See" />
 
     <Button
-        android:id="@+id/btn_MakeTravelPlanLevel1_Play"
+        android:id="@+id/btn_InstantBookMain_Play"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/All_Play" />
 
     <Button
-        android:id="@+id/btn_MakeTravelPlanLevel1_Car"
+        android:id="@+id/btn_InstantBookMain_Car"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/All_Car" />
